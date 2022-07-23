@@ -27,7 +27,7 @@ import CvList from "../pages/CvList";
 export default function Dashboard() {
   return (
     <div>
-      <Grid>
+      <Grid  >
         <GridRow>
           <Grid.Column width={4}>
             <Categories />

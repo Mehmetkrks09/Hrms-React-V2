@@ -35,7 +35,7 @@ export default class PhotoUpdate extends Component {
     return (
       <div>
         <Card fluid color={"black"}>
-          <Card.Content header="Resim Yükle -İşlem 10Sn Sürebilir " />
+          <Card.Content header="Resim Yükle -İşlem 10Sn Sürebilir.." />
           <Card.Content style={{}}>
             <input
               style={{ display: "none" }}

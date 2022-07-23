@@ -9,7 +9,7 @@ postCv(values){
     return axios.post("http://localhost:8080/api/cv/add",values)
 }
 postCvPhoto(id,fd){
-    return axios.post("http://localhost:8080/api/cv/imageUpload?cvId="+id,fd)
+    return axios.post("http://localhost:8080/api/cv/imageUpload?jobSeeker="+id,fd)
 }
 UpdateCv(values){
     return axios.put("http://localhost:8080/api/cv/update",values)

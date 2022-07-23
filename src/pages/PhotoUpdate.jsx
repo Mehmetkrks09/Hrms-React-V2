@@ -23,7 +23,7 @@ export default class PhotoUpdate extends Component {
     );
     let cvService = new CvService();
     try {
-      cvService.postCvPhoto(4, fd).then((res) => {
+      cvService.postCvPhoto(1, fd).then((res) => {
         toast.success(res.data.message);
       });
     } catch (error) {
@@ -35,7 +35,7 @@ export default class PhotoUpdate extends Component {
     return (
       <div>
         <Card fluid color={"black"}>
-          <Card.Content header="Resim Yükle " />
+          <Card.Content header="Resim Yükle -İşlem 10Sn Sürebilir " />
           <Card.Content style={{}}>
             <input
               style={{ display: "none" }}

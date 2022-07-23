@@ -11,15 +11,15 @@ return axios.post("http://hrms-java.herokuapp.com/api/employers/register")
 
 }
 EmployerUpdate(values){
-    return axios.put("https://hrms-java.herokuapp.com/api/employers/update",values)
+    return axios.put("http://hrms-java.herokuapp.com/api/employers/update",values)
 }
 
 VerifyUpdate(employerId,employerUpdateId){
-    return axios.put("https://hrms-java.herokuapp.com/api/employers/verifyUpdate?employerId="+employerId+"&employerUpdateId="+employerUpdateId)
+    return axios.put("http://hrms-java.herokuapp.com/api/employers/verifyUpdate?employerId="+employerId+"&employerUpdateId="+employerUpdateId)
 }
 
 getAllUpdate(){
-    return axios.get("https://hrms-java.herokuapp.com/api/employers/getallUpdate")
+    return axios.get("http://hrms-java.herokuapp.com/api/employers/getallUpdate")
 }
 
 }     

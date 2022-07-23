@@ -2,14 +2,14 @@ import axios from "axios";
 export default class FavoriteAdvertisementService{
 
     postFavoriteAdvertisement(values){
-        return axios.post("https://hrms-java.herokuapp.com/api/favoriteAdvertisement/add",values)
+        return axios.post("http://hrms-java.herokuapp.com/api/favoriteAdvertisement/add",values)
     }
     getByJobSeekerId(id){
-        return axios.get("https://hrms-java.herokuapp.com/api/favoriteAdvertisement/getByJobSeekerId?id="+id)
+        return axios.get("http://hrms-java.herokuapp.com/api/favoriteAdvertisement/getByJobSeekerId?id="+id)
     }
 
     deleteFav(id){
-        return axios.post("https://hrms-java.herokuapp.com/api/favoriteAdvertisement/delete?id="+id)
+        return axios.post("http://hrms-java.herokuapp.com/api/favoriteAdvertisement/delete?id="+id)
     }
 
 }  

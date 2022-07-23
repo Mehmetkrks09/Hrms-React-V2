@@ -7,7 +7,7 @@ export default function CvList() {
 
   useEffect(() => {
     let cvService = new CvService();
-    cvService.getJobSeekerId(3).then((result) => setCv(result.data.data));
+    cvService.getJobSeekerId(4).then((result) => setCv(result.data.data));
   });
 
   return (

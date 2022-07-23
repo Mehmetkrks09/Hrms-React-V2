@@ -23,10 +23,28 @@ export default function Categories() {
           name="Job Seeker's"
          
         />
+          <Menu.Item  as={Link} to={"/EmployerList"}
+         icon="users"
+          name="Employer List"
+         
+        />
+        
         <Menu.Item  as={Link} to={"/advertisement"}
-         icon="briefcase
+         icon="address card
          "
-          name="Advertisement"
+          name="İş İlanları"
+         
+        />
+
+        <Menu.Item  as={Link} to={"/favoriteList"}
+         icon="heart
+         "
+          name="Favorilerim"
+         
+        />
+         <Menu.Item  as={Link} to={"/emp"}
+         icon="male"
+          name="Çalışan Güncelleme"
          
         />
         <Menu.Item  as={Link} to={"/employerUpdate"}
@@ -39,6 +57,7 @@ export default function Categories() {
           name="Çalışan Güncelleme"
          
         />
+       
 
 <Menu.Item  as={Link} to={"/cvAdd"}
          icon="address card"

@@ -3,15 +3,15 @@ import axios from "axios"
 export default class JobExperienceService{
 
     getByGrudutionYear(){
-        return axios.get("http://hrms-java.herokuapp.com/api/cv/jobExperience/ByGrudutionYear")
+        return axios.get("https://hrms-java.herokuapp.com/api/cv/jobExperience/ByGrudutionYear")
     }
 
     getAll(){
-        return axios.get("http://hrms-java.herokuapp.com/api/cv/jobExperience/getAll");
+        return axios.get("https://hrms-java.herokuapp.com/api/cv/jobExperience/getAll");
     }
 
     add(values){
-        return axios.post("http://hrms-java.herokuapp.com/api/cv/jobExperience/add"+values)
+        return axios.post("https://hrms-java.herokuapp.com/api/cv/jobExperience/add"+values)
     }
 
 }     

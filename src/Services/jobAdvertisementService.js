@@ -23,17 +23,17 @@ export default class JobAdvertisementService {
   }
   getByTrue() {
     return axios.get(
-      "http://hrms-java.herokuapp.com/api/jobadvertisement/getByIsActiveTrue"
+      "https://hrms-java.herokuapp.com/api/jobadvertisement/getByIsActiveTrue"
     );
   }
   getByWayOfWorkingIdAndCityId(cityId,wayOfWorkingId){
-    return axios.get("http://hrms-java.herokuapp.com/api/jobadvertisement/getAllByActivatedAndWayOfWorkingandCityId?cityId="+cityId+"&wayOfWorkingId="+wayOfWorkingId);
+    return axios.get("https://hrms-java.herokuapp.com/api/jobadvertisement/getAllByActivatedAndWayOfWorkingandCityId?cityId="+cityId+"&wayOfWorkingId="+wayOfWorkingId);
   }
   
   getByCityId(cityId){
-    return axios.get("http://hrms-java.herokuapp.com/api/jobadvertisement/getByCityId?id="+cityId);
+    return axios.get("https://hrms-java.herokuapp.com/api/jobadvertisement/getByCityId?id="+cityId);
   }
   getByWayOfWorking(wayOfWorkingId){
-    return axios.get("http://hrms-java.herokuapp.com/api/jobadvertisement/getAllByActivatedAndWayOfWorking?wayOfWorkingId="+wayOfWorkingId);
+    return axios.get("https://hrms-java.herokuapp.com/api/jobadvertisement/getAllByActivatedAndWayOfWorking?wayOfWorkingId="+wayOfWorkingId);
   }
 }

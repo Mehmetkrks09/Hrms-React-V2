@@ -23,6 +23,22 @@ export default function Categories() {
           name="Job Seeker's"
          
         />
+        <Menu.Item  as={Link} to={"/advertisement"}
+         icon="briefcase
+         "
+          name="Advertisement"
+         
+        />
+        <Menu.Item  as={Link} to={"/employerUpdate"}
+         icon="user plus"
+          name="employer Update"
+         
+        />
+        <Menu.Item  as={Link} to={"/emp"}
+         icon="male"
+          name="Çalışan Güncelleme"
+         
+        />
 
 <Menu.Item  as={Link} to={"/cvAdd"}
          icon="address card"

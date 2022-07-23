@@ -2,6 +2,7 @@ import React from "react";
 
 import Categories from "./Categories";
 
+
 import { Grid, GridRow } from "semantic-ui-react";
 
 import JobSeeker from "../pages/JobSeekerList";
@@ -26,7 +27,8 @@ import CvList from "../pages/CvList";
 
 export default function Dashboard() {
   return (
-    <div>
+    <div   >
+     
       <Grid  >
         <GridRow>
           <Grid.Column width={4}>

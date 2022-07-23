@@ -7,7 +7,7 @@ import {
   TextArea,
   Card,
   Form,
-  Input,
+  
 } from "semantic-ui-react";
 import CvService from "../Services/cvService";
 import DepartmentService from "../Services/departmentService";

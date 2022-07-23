@@ -6,9 +6,9 @@ export default  class JobSeekerService{
         return axios.get("https://hrms-java.herokuapp.com/api/jobSeekers/getall")
     }
     postJobSeeker(){
-        return axios.post("http://hrms-java.herokuapp.com/api/jobSeekers/register")
+        return axios.post("https://hrms-java.herokuapp.com/api/jobSeekers/register")
     }
     getById(values){
-        return axios.get("http://hrms-java.herokuapp.com/api/jobSeekers/getById?id="+values)
+        return axios.get("https://hrms-java.herokuapp.com/api/jobSeekers/getById?id="+values)
     }
 }  

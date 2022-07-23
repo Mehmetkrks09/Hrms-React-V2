@@ -3,14 +3,14 @@ import axios from "axios"
 export default class SchoolService{
 
     postSchool(){
-        return axios.post("http://localhost:8080/api/cv/school/add")
+        return axios.post("http://hrms-java.herokuapp.com/api/cv/school/add")
     } 
 
     getByGrudutionYear(){
-        return axios.get("http://localhost:8080/api/cv/school/ByGrudutionYear")
+        return axios.get("http://hrms-java.herokuapp.com/api/cv/school/ByGrudutionYear")
     }
 
     getAll(){
-        return axios.get("http://localhost:8080/api/cv/school/getAll")
+        return axios.get("http://hrms-java.herokuapp.com/api/cv/school/getAll")
     }
 }  

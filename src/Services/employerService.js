@@ -3,23 +3,23 @@ import axios from "axios"
 export default class EmployerService{
 
     getEmployeer(){
-return  axios.get("http://localhost:8080/api/employers/getall")
+return  axios.get("http://hrms-java.herokuapp.com/api/employers/getall")
     }
 postEmployer(){
 
-return axios.post("http://localhost:8080/api/employers/register")
+return axios.post("http://hrms-java.herokuapp.com/api/employers/register")
 
 }
 EmployerUpdate(values){
-    return axios.put("http://localhost:8080/api/employers/update",values)
+    return axios.put("http://hrms-java.herokuapp.com/api/employers/update",values)
 }
 
 VerifyUpdate(employerId,employerUpdateId){
-    return axios.put("http://localhost:8080/api/employers/verifyUpdate?employerId="+employerId+"&employerUpdateId="+employerUpdateId)
+    return axios.put("http://hrms-java.herokuapp.com/api/employers/verifyUpdate?employerId="+employerId+"&employerUpdateId="+employerUpdateId)
 }
 
 getAllUpdate(){
-    return axios.get("http://localhost:8080/api/employers/getallUpdate")
+    return axios.get("http://hrms-java.herokuapp.com/api/employers/getallUpdate")
 }
 
 }     

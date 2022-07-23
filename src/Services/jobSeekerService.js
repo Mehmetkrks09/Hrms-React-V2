@@ -3,12 +3,12 @@ import axios from "axios"
 export default  class JobSeekerService{
     getJobSeeker()
     {
-        return axios.get("http://localhost:8080/api/jobSeekers/getall")
+        return axios.get("http://hrms-java.herokuapp.com/api/jobSeekers/getall")
     }
     postJobSeeker(){
-        return axios.post("http://localhost:8080/api/jobSeekers/register")
+        return axios.post("http://hrms-java.herokuapp.com/api/jobSeekers/register")
     }
     getById(values){
-        return axios.get("http://localhost:8080/api/jobSeekers/getById?id="+values)
+        return axios.get("http://hrms-java.herokuapp.com/api/jobSeekers/getById?id="+values)
     }
 }  

@@ -46,7 +46,7 @@ export default function CvAdd() {
     validationSchema: CvUpdateSchema,
     onSubmit: (values) => {
       values.jobSeekerId = "7";
-      values.cvId = "9";
+      values.cvId = "4";
       cvService.postCv(values).then((result) => console.log(result.data.data));
       toast.success("Cv Has Been Added");
       console.log(values.photo);

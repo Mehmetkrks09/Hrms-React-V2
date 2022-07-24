@@ -10,7 +10,7 @@ export default function FavoriteAdList() {
   useEffect(() => {
     let favoriteService = new FavoriteAdvertisementService();
     favoriteService
-      .getByJobSeekerId(7)
+      .getByJobSeekerId(4)
       .then((result) => setFavorites(result.data.data));
   }, []);
 
@@ -28,7 +28,7 @@ export default function FavoriteAdList() {
         <Table.Header>
           <Table.Row>
             <Table.HeaderCell> Job Advertisement</Table.HeaderCell>
-            <Table.HeaderCell>Company Name </Table.HeaderCell>
+            <Table.HeaderCell>Job Name </Table.HeaderCell>
             <Table.HeaderCell>Dead line</Table.HeaderCell>
             <Table.HeaderCell> </Table.HeaderCell>
           </Table.Row>
@@ -45,7 +45,7 @@ export default function FavoriteAdList() {
               </Table.Cell>
 
               <Table.Cell>
-                {favorites.jobAdvertisement.employer.companyName}
+                {favorites.jobAdvertisement.job.jobName}
               </Table.Cell>
               <Table.Cell>{favorites.jobAdvertisement.deadline}</Table.Cell>
               <Table.Cell>

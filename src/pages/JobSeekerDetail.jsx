@@ -11,7 +11,7 @@ export default function JobSeekerDetail() {
   useEffect(() => {
     let jobSeekerService = new JobSeekerService();
     jobSeekerService
-      .getById(2)
+      .getById(4)
       .then((result) => setJobSeeker(result.data.data));
   }, []);
 
@@ -23,22 +23,22 @@ export default function JobSeekerDetail() {
             <Image
               floated="right"
               size="mini"
-              src="/images/avatar/large/steve.jpg"
+              src="https://lh3.googleusercontent.com/ogw/AOh-ky1oGsXh-FMuz3p2DEeKAdwWpqcxPQ11jUwFb3cu2yw=s32-c-mo"
             />
 
-            <Card.Meta>{jobSeekers.firstName}</Card.Meta>
-            <Card.Header>{jobSeekers.lastName}</Card.Header>
+            <Card.Header>{jobSeekers.firstName}</Card.Header>
+            <Card.Meta>{jobSeekers.lastName}</Card.Meta>
             <Card.Description>
-              Steve wants to add you to the group <strong>best friends</strong>
+            <strong> Mehmet</strong> Size iş Teklifi Gönderdi
             </Card.Description>
           </Card.Content>
           <Card.Content extra>
             <div className="ui two buttons">
               <Button basic color="green">
-                Approve
+                Onayla
               </Button>
               <Button basic color="red">
-                Decline
+                Reddet
               </Button>
             </div>
           </Card.Content>

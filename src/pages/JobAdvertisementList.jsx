@@ -95,7 +95,7 @@ export default function JobAdvertisementList() {
     let favoriteService = new FavoriteAdvertisementService();
 
     const favorite = {
-      jobSeekerId: 7,
+      jobSeekerId: 4,
       jobAdvertisementId: id,
     };
     favoriteService.postFavoriteAdvertisement(favorite).then();

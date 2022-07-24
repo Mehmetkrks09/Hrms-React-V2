@@ -23,6 +23,7 @@ export default class PhotoUpdate extends Component {
     );
     let cvService = new CvService();
     try {
+     
       cvService.postCvPhoto(1, fd).then((res) => {
         toast.success(res.data.message);
       });

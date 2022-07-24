@@ -9,15 +9,19 @@ import Footer from './layouts/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" class="header home">
+
 
       <Navi/>
+     
       <Container className="main">
 
          <Dashboard/>
          <ToastContainer position="bottom-right"/>
       </Container>
+      
       <Footer/>
+      
       
     
     

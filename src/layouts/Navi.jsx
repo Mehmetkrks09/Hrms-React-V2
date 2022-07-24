@@ -21,8 +21,8 @@ export default function Navi() {
   }
 
   return (
-    <div>
-      <Menu inverted fixed="top">
+    <div class="">
+      <Menu  fixed="top">
         <Container >
           {" "}
           <Menu.Item  name="Ana Sayfa"  as={Link} to={"/"}>

@@ -6,15 +6,15 @@ export default function Categories() {
     return (
       
         <div >
-            <Menu  pointing vertical  size="large">
+            <Menu   pointing vertical  size="large">
         <Menu.Item  as={Link} to={"/"}
      
      
         />
         <Menu.Item  as={Link} to={"/cvList"}
+       
         icon="address card outline"
           name="Cv's"
-        
         />
         <Menu.Item  as={Link} to={"/jobSeeker"}
          icon="users"

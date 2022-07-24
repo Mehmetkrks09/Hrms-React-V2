@@ -21,10 +21,10 @@ export default function Navi() {
   }
 
   return (
-    <div class="">
+    <div  >
       <Menu  fixed="top">
         <Container >
-          {" "}
+         
           <Menu.Item  name="Ana Sayfa"  as={Link} to={"/"}>
           <Header as="h4" color="blue" className="orbitron" icon="cube" content="HRMS" />
             

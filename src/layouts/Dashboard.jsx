@@ -29,7 +29,7 @@ export default function Dashboard() {
   return (
     <div   >
      
-      <Grid  >
+      <Grid  stackable columns={3} >
         <GridRow>
           <Grid.Column width={4}>
             <Categories />

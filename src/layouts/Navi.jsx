@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import CartSummary from "./CartSummary";
-import { Container, Menu, Icon} from "semantic-ui-react";
+import { Container, Menu, Icon,Header} from "semantic-ui-react";
 import { Link } from "react-router-dom";
 
 import SignedOut from "./SignedOut";
@@ -23,14 +23,13 @@ export default function Navi() {
   return (
     <div>
       <Menu inverted fixed="top">
-        <Container>
+        <Container >
           {" "}
           <Menu.Item  name="Ana Sayfa"  as={Link} to={"/"}>
-            
-            <Icon name="home" />
-           Ana Sayfa 
+          <Header as="h4" color="blue" className="orbitron" icon="cube" content="HRMS" />
             
           </Menu.Item>
+          
   
          
           {/* <Menu.Item name="messages" /> */}

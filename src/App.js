@@ -5,6 +5,7 @@ import Dashboard from './layouts/Dashboard';
 import Navi from './layouts/Navi';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Footer from './layouts/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
          <Dashboard/>
          <ToastContainer position="bottom-right"/>
       </Container>
+      <Footer/>
       
     
     

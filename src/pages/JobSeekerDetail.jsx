@@ -17,21 +17,24 @@ export default function JobSeekerDetail() {
 
   return (
     <div>
-      <Card.Group>
+      {/* <Card.Group>
         <Card fluid>
-          <Card.Content>
-            <Image
+          <Card.Content> */}
+
+
+
+      {/* <Image
               floated="right"
               size="mini"
               src="https://lh3.googleusercontent.com/ogw/AOh-ky1oGsXh-FMuz3p2DEeKAdwWpqcxPQ11jUwFb3cu2yw=s32-c-mo"
             />
 
             <Card.Header>{jobSeekers.firstName}</Card.Header>
-            <Card.Meta>{jobSeekers.lastName}</Card.Meta>
-            <Card.Description>
+            <Card.Meta>{jobSeekers.lastName}</Card.Meta> */}
+      {/* <Card.Description>
             <strong> Mehmet</strong> Size iş Teklifi Gönderdi
-            </Card.Description>
-          </Card.Content>
+            </Card.Description> */}
+      {/* </Card.Content>
           <Card.Content extra>
             <div className="ui two buttons">
               <Button basic color="green">
@@ -42,8 +45,18 @@ export default function JobSeekerDetail() {
               </Button>
             </div>
           </Card.Content>
-        </Card>
-      </Card.Group>
-    </div>
+        </Card> */}
+
+    {/* </Card.Group> */}
+    <Card
+    image=' https://pickaface.net/gallery/avatar/20120409_144914_213_pp.png'
+    header='Mehmet Karakaş'
+    meta='Worker'
+    description='Mehmet is a Coder.'
+   
+  />
+)
+   
+    </div >
   );
 }

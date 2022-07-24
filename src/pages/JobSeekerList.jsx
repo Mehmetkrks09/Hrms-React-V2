@@ -22,10 +22,10 @@ export default function JobSeeker() {
             <Table.HeaderCell>Adı</Table.HeaderCell>
             <Table.HeaderCell>Soyadı</Table.HeaderCell>
             <Table.HeaderCell>Email</Table.HeaderCell>
-            <Table.HeaderCell>password</Table.HeaderCell>
+            <Table.HeaderCell>Şifre</Table.HeaderCell>
 
             <Table.HeaderCell>Tc Numarası</Table.HeaderCell>
-            <Table.HeaderCell>Doğum Tarihix</Table.HeaderCell>
+            <Table.HeaderCell>Doğum Tarihi</Table.HeaderCell>
           </Table.Row>
         </Table.Header>
 

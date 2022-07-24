@@ -18,12 +18,12 @@ export default function Categories() {
         />
         <Menu.Item  as={Link} to={"/jobSeeker"}
          icon="users"
-          name="Job Seeker's"
+          name="İş Arayanlar"
          
         />
           <Menu.Item  as={Link} to={"/EmployerList"}
          icon="users"
-          name="Employer List"
+          name="İş Verenler"
          
         />
         
@@ -47,7 +47,7 @@ export default function Categories() {
         />
         <Menu.Item  as={Link} to={"/employerUpdate"}
          icon="user plus"
-          name="employer Update"
+          name="İş Veren Güncelle"
          
         />
         <Menu.Item  as={Link} to={"/emp"}
@@ -59,14 +59,14 @@ export default function Categories() {
 
 <Menu.Item  as={Link} to={"/cvAdd"}
          icon="address card"
-          name="Cv Add"
+          name="Cv Ekleme"
          
         />
 
         
 <Menu.Item  as={Link} to={"/photoUpdate"}
          icon=" image"
-          name=" Update Photo"
+          name=" Fotoğraf Yükle"
          
         />
       </Menu>

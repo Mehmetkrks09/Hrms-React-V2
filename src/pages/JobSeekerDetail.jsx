@@ -55,7 +55,7 @@ export default function JobSeekerDetail() {
     description='Mehmet is a Coder.'
    
   />
-)
+
    
     </div >
   );
